@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+
+h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gradient-button {
+  background: linear-gradient(to bottom, #4CAF50 0%, #45a049 100%);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.styled-input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 2px;
+  border-radius: 5px;
+  color: rgb(33, 163, 150);
+  width: 260px; 
+}
+
+ 
+.list-item {
+  background-color: lightblue; 
+  margin: 8px ;  
+  padding: 5px;  
+  border: 1px solid #ccc;  
+}
+
+.list-item button {
+  background-color: red;  
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
