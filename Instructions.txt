@@ -1,0 +1,25 @@
+- After downloading the files make sure to separate all the files, Front end files are added normally     but backend files are added in a folder.
+
+- After Separating all files use the command "rpm install" for downloading necessary files and dependencies into the project.
+
+Dependencies needed to be installed:
+	- ExpressJS
+	- Nodemon
+	
+- After installing all the dependencies in the projects, for front end use "rpm start" for starting the project once project is live in terminal you will see the message as "WEBPACK COMPLIED SUCCESSFULLY" which indicates front end code is running successfully without any errors.
+
+- For backend install all the dependencies and then use the command "nodemon index.js" which will start the project and in terminal you can see the successfully serving running message.
+
+- Once both the projects are live, in front end when ever you add data in the input field it will be added UI with a button with delete functionality, and that added data is stored in the backend. If you want to see the data we have use "POSTMAN" tool for checking the result of API's.
+
+- When we add the data in front end, open POSTMAN and then change the HTTP method to "POST" and give the required URL and then click on send button, which will generate an ID. Similar to this --> {id:1}.
+
+- For every adding data the ID will be incremented.
+
+- After adding all the required data if you want to check the data you can use HTTP method to "GET" which will show all the data in POSTMAN app.
+
+- If you want to delete the data then use HTTP delete method and in URL at the end mention the ID number that you want to delete and then you will see the success message in the POSTMAN Application.
+
+
+If this project is not working in your machine then, I can demonstrate the project in VSCode.
+
